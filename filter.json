@@ -1,0 +1,8 @@
+{
+    "whitelist_class": [],
+    "whitelist_filedir": [],
+    
+    "blacklist_class": [],
+    "blacklist_function": [],
+    "blacklist_filedir": []
+}

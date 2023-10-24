@@ -1,0 +1,15 @@
+//
+//  CheckDemo-PrefixHeader.pch
+//  CheckDemo
+//
+//  Created by ijm-ycy on 17.12.21.
+//
+
+#ifndef CheckDemo_PrefixHeader_pch
+#define CheckDemo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "../symbol_obf/codeObfuscation.h"
+
+#endif /* CheckDemo_PrefixHeader_pch */
