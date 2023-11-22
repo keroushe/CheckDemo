@@ -37,24 +37,34 @@ public class CheckTest : NSObject {
     static public func testAll() {
         
         // 越狱设备运行风险
-        print(">>>>>checkIsJailbroken = %d", isJbroken());
+        if isJbroken() {
+            print(">>>>>检测到越狱设备运行风险")
+            exit(0);
+        }
         
         // 动态调试攻击风险
-        let isDebug = amIDebugged()
-        print("检测是否有调试应用 = %d", isDebug);
+        if amIDebugged() {
+            print("检测到有调试应用")
+            exit(0);
+        }
         
         // 检测是否使用代理
-        print(">>>>>iproxy:%d", isSettingProxy());
+        if isSettingProxy() {
+            print("检测到有使用网络代理, 可能存在抓包风险");
+            exit(0);
+        }
         
         // 注入攻击风险
         if IJMCheckInsertWhiteList() || IJMCheckInsertLib() {
             print("检测到动态库注入");
-        } else {
-            print("没有检测到动态库注入");
+            exit(0);
         }
         
-        let isOrigin = checkCodesign(teamID: "K294UE6ZZL");
-        print("是否未篡改, isOrigin = %d", isOrigin);
+        // 篡改和二次打包风险
+        if checkCodeSignIsNotChange(teamID: "K294UE6ZZL") {
+            print("检测到应用被重签名");
+            exit(0);
+        }
     }
     
     /// MARK: - 判断是否使用了越狱设备运行
@@ -153,7 +163,7 @@ public class CheckTest : NSObject {
     /// - Parameter teamID: 参数为打包证书的teamID, 可先用发布证书打包出来后，然后查看打印日志得到，也可使用ldid -e <macho文件>得到
     /// - Returns: 是否未篡改
     @inline(__always)
-    static func checkCodesign(teamID: String) -> Bool {
+    static func checkCodeSignIsNotChange(teamID: String) -> Bool {
         let embeddedPath = Bundle.main.path(forResource: "embedded", ofType: "mobileprovision")!
         
         if FileManager.default.fileExists(atPath: embeddedPath) {
