@@ -201,7 +201,7 @@ __attribute__((always_inline)) static bool IJMCheckInsertWhiteList() {
         NSArray *arrs = [filePath componentsSeparatedByString:@".app/Frameworks"];
         // 检查是否有分割后的内容
         if (arrs.count > 1) {
-            NSLog(@"当前库名字 = %@", arrs[1]);
+            NSLog(@"需要添加到_whitelistFramework中的库名字 = %@", arrs[1]);
             // 检查白名单中是否包含分割后的内容
             if (![_whitelistFramework containsObject:arrs[1]]) {
                 return YES; // 如果不在白名单中，则返回 YES，表示有动态库未在白名单内
