@@ -165,6 +165,7 @@ __attribute__((always_inline)) static bool isSettingProxy(void)
 typedef char* _Nullable (*GET_ENV_TYPE)(const char *);
 __attribute__((always_inline)) static bool IJMCheckInsertLib()
 {
+    // 注意⚠️: 调试情况下，这个环境变量可能会被Xcode自动写入值DYLD_INSERT_LIBRARIES，不为空, 需要进行区分
     // 定义一个函数指针变量，用于获取环境变量值
     GET_ENV_TYPE get_env = getenv;
     // 获取环境变量 "DYLD_INSERT_LIBRARIES" 的值
@@ -185,7 +186,8 @@ __attribute__((always_inline)) static bool IJMCheckInsertWhiteList() {
     // 初始化一个白名单数组
     _whitelistFramework = [NSMutableArray array];
     // 添加一个动态库到白名单中
-#warning 在这里修改动态库列表，如果不清楚列表内容，可以通过看下面的代码打印数据后再进行修改, 
+#warning 在这里修改动态库列表，如果不清楚列表内容，可以通过看下面的代码打印数据后再进行修改,
+    // 注意⚠️:如果是使用了swift, 并且最低版本支持iOS12, 则需要用12的真机运行下，打印出swift相关库，然后添加到_whitelistFramework中
     // 比如这个demo里面动态库只有TestFramework.framework, 则进行下面添加即可
     [_whitelistFramework addObject:@"/TestFramework.framework/TestFramework"];
     
