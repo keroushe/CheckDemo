@@ -3,4 +3,195 @@
    uuid = "A1FC3F66-CBAE-4E8E-8C5C-D84CEB2B34C6"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckDemo/CheckTestOC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "+testAll"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17 - 4fc14c3f73347ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2204">
+               </Location>
+               <Location
+                  uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17 - 4fc14c3f73347ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2156">
+               </Location>
+               <Location
+                  uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17 - 4fc14c3f73347ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2108">
+               </Location>
+               <Location
+                  uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17 - 4fc14c3f73347ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1976">
+               </Location>
+               <Location
+                  uuid = "4B9F026D-82AE-4B97-A0E1-1F39472D9A17 - 4fc14c3f73347ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "726FB402-2491-4C24-84D8-3171093EBAE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckDemo/CheckTestOC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "+testAll"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "726FB402-2491-4C24-84D8-3171093EBAE7 - 4fc14c3f7334694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+               <Location
+                  uuid = "726FB402-2491-4C24-84D8-3171093EBAE7 - 4fc14c3f7334694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A94AC79-C974-4407-9AD5-2321350C7CBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckDemo/CheckTestOC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "IJMCheckInsertWhiteList()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1A94AC79-C974-4407-9AD5-2321350C7CBE - 4fc14c3f733bd82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "1A94AC79-C974-4407-9AD5-2321350C7CBE - 4fc14c3f733bd82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CheckTestOC testAll]"
+                  moduleName = "CheckDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTestOC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
