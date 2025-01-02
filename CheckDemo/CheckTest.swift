@@ -61,7 +61,7 @@ public class CheckTest : NSObject {
         }
         
         // 篡改和二次打包风险
-        if checkCodeSignIsNotChange(teamID: "K294UE6ZZL") {
+        if !checkCodeSignIsNotChange(teamID: "72D3MA6558") {
             print("检测到应用被重签名");
             exit(0);
         }

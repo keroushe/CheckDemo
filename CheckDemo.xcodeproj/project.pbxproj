@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -386,6 +386,27 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = (
+					"-mllvm",
+					"-ecs",
+					"-mllvm",
+					"-ipo",
+					"-mllvm",
+					"-ipo-percent=100",
+					"-mllvm",
+					"-cxf",
+					"-mllvm",
+					"-cxf-prob=100",
+					"-mllvm",
+					"-idc",
+					"-mllvm",
+					"-icf",
+					"-mllvm",
+					"-icf-prob=100",
+					"-mllvm",
+					"-anti-f5",
+					"-fembed-bitcode",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

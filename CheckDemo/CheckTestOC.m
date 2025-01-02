@@ -76,7 +76,7 @@
 #pragma mark 篡改和二次打包风险
     // 篡改和二次打包风险
 #warning 此处函数参数为打包证书的teamID, 可先用发布证书打包出来后，然后查看打印日志得到，也可使用ldid -e <macho文件>得到
-    if (!checkCodeSignIsNotChange(@"K294UE6ZZL"))
+    if (!checkCodeSignIsNotChange(@"72D3MA6558"))
     {
         NSLog(@"检测到应用被重签名");
         exit(0);
@@ -247,6 +247,7 @@ static const char *macholibs[] = {
     "/System/Library/Frameworks/Security.framework/Security",
     "/System/Library/Frameworks/Network.framework/Network",
     "/System/Library/Frameworks/Photos.framework/Photos",
+    "/System/Library/Frameworks/WebKit.framework/WebKit",
     "@rpath/TestFramework.framework/TestFramework",
     "/System/Library/Frameworks/CoreLocation.framework/CoreLocation",
     "/usr/lib/libobjc.A.dylib",
