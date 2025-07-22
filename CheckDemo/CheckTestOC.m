@@ -208,6 +208,8 @@ __attribute__((always_inline)) static bool IJMCheckInsertWhiteList() {
     // 注意⚠️:如果是使用了swift, 并且最低版本支持iOS12, 则需要用12的真机运行下，打印出swift相关库，然后添加到_whitelistFramework中
     // 比如这个demo里面动态库只有TestFramework.framework, 则进行下面添加即可
     [_whitelistFramework addObject:@"/TestFramework.framework/TestFramework"];
+    // 下面这个是加固防护库，如果使用我们的加固产品，需要加上这个，防止加固后这里触发白名单
+    [_whitelistFramework addObject:@"/JMCodeProtectKit.framework/JMCodeProtectKit"];
     
     // 获取当前进程加载的动态库数量
     int count = _dyld_image_count();
