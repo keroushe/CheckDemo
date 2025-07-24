@@ -5,54 +5,6 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B369D42E-52E4-474A-98A0-6EAC4803F5E7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CheckDemo/CheckTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "testAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B369D42E-52E4-474A-98A0-6EAC4803F5E7 - 6a8a4f35ec6dbdf9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static CheckDemo.CheckTest.testAll() -&gt; ()"
-                  moduleName = "CheckDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "624">
-               </Location>
-               <Location
-                  uuid = "B369D42E-52E4-474A-98A0-6EAC4803F5E7 - 6a8a4f35ec6dbd45"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static CheckDemo.CheckTest.testAll() -&gt; ()"
-                  moduleName = "CheckDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ijiami/Desktop/hexs/workspace/work_proj/github/CheckDemo/CheckDemo/CheckTest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "428">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
          <BreakpointContent
             uuid = "47911CAF-2CAE-4A70-A3D1-6F6AA14719A4"
